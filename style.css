@@ -1,5 +1,7 @@
 .container {
   height: 100vh;
+  display: flex;
+  gap: 25px;
 }
 
 [class^="box-"] {
@@ -8,4 +10,7 @@
   background-color: skyblue;
   border: 2px solid black;
   font-size: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
