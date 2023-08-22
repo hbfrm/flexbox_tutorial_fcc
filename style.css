@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+}
+
+[class^="box-"] {
+  width: 140px;
+  height: 140px;
+  background-color: skyblue;
+  border: 2px solid black;
+  font-size: 65px;
+}
